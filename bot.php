@@ -35,7 +35,7 @@ Tog'irlanagn bo'limlar
 $bot_token = "7970468806:AAEHziPv3Rpw5KjPOz2zov1BHoivs0sz8hs"; // bot token
 
 define('API_KEY',$bot_token);
-$obito_us = "Admin-iD"; // admin_id
+$obito_us = "6151329850"; // admin_id
 $admins = file_get_contents("admin/admins.txt");
 $admin = explode("\n",$admins);
 $studio_name = file_get_contents("admin/studio_name.txt");
@@ -3403,3 +3403,4 @@ bot('sendMessage',[
 
 
 //<---- @obito_us ---->//
+
