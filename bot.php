@@ -32,7 +32,7 @@ Tog'irlanagn bo'limlar
 
 */
 
-$bot_token = "Bot_Token"; // bot token
+$bot_token = "7970468806:AAEHziPv3Rpw5KjPOz2zov1BHoivs0sz8hs"; // bot token
 
 define('API_KEY',$bot_token);
 $obito_us = "Admin-iD"; // admin_id
@@ -3400,5 +3400,6 @@ bot('sendMessage',[
 ]);
 }
 }
+
 
 //<---- @obito_us ---->//
