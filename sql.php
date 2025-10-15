@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
-$username = "baza_nomi";
-$password = "baza_paroli";
+$servername = "github";
+$username = "baza1234";
+$password = "aniedituz";
 $connect = mysqli_connect($servername, $username, $password, $username);
 
 mysqli_query($connect,"CREATE TABLE IF NOT EXISTS `user_id` (
@@ -65,4 +65,5 @@ mysqli_query($connect,"CREATE TABLE IF NOT EXISTS `animelar` (
   `sana` text NOT NULL,
   `aniType` text NOT NULL,
   PRIMARY KEY (`id`)
+
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;");
