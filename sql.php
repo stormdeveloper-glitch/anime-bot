@@ -1,6 +1,6 @@
 <?php
 
-$servername = "github";
+$servername = "localhost";
 $username = "baza1234";
 $password = "aniedituz";
 $connect = mysqli_connect($servername, $username, $password, $username);
@@ -67,3 +67,4 @@ mysqli_query($connect,"CREATE TABLE IF NOT EXISTS `animelar` (
   PRIMARY KEY (`id`)
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;");
+
